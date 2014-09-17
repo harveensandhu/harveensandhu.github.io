@@ -18,7 +18,7 @@ this is not efficient in terms of size and supportability on a variety of device
 ###Below are examples of how to implement responsive images onto a web page:
 
 #####CSS:
-```
+{% highlight css %}
  @media (min-width: 768px) {
 
         .image1{
@@ -36,15 +36,15 @@ this is not efficient in terms of size and supportability on a variety of device
           height: 600px;
           
         }      
-```
+{% endhighlight css %}
 Here using CSS, you can establish media queries simply to change the image at different breakpoints that will sit inside the desired container. (Note: if a desired with 
 is established in previous CSS code of that class, the image will sit in the contraints given and in relation to the min-widths established)
 
 ####Picturefill:
 
 In the head of the document:
+{% highlight html %}
 
-```
 <script type="text/javascript">
 
 //tell browser about picture element
@@ -52,14 +52,14 @@ In the head of the document:
   </script>
 
   <script src="picturefill.js" async></script>
-```
+{% endhighlight html %}
 In the html code:
-```
+{% highlight html %}
  <picture>
     <source media="(min-width:1024px)" srcset="image-desktop.jpg, image-desktop@2x.jpg">
     <source media="(min-width:768px)" srcset="image-tablet.jpg, image-tablet@2x.jpg">
       <img srcset="image-mobile.jpg, image-mobile@2x.jpg" alt="This is an image">
     </picture> 
-```
+{% endhighlight html %}
 Here is an example using the picture tag, which allows you to state a media query, establish a range of images, including those for 
 higher definition display, so that at each breakpoint, an image will load. This method seems quicker in terms of coding and one that could solve issues such as rendering and size limit.
