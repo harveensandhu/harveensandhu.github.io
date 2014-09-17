@@ -53,7 +53,7 @@ In the head of the document:
 
   <script src="picturefill.js" async></script>
 ```
-
+In the html code:
 ```
  <picture>
     <source media="(min-width:1024px)" srcset="image-desktop.jpg, image-desktop@2x.jpg">
