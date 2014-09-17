@@ -27,7 +27,15 @@ this is not efficient in terms of size and supportability on a variety of device
           }
    
         }
-        
+    /*setting media queries for high resolution tablet size*/
+     @media (-webkit-min-device-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
+    
+    .image1{
+      background-image: url('tablet-size@2x.jpg');
+  
+    }
+    
+    }    
         
   @media (min-width: 1024px) {
 
@@ -35,7 +43,20 @@ this is not efficient in terms of size and supportability on a variety of device
           background-image: url('desktop-size.jpg');
           height: 600px;
           
-        }      
+        }     
+        
+   }
+   
+   /*setting media queries for high resolution desktop size*/
+     @media (-webkit-min-device-ratio: 2) and (min-width: 1024px), (min-resolution: 192dpi) and (min-width: 1024px) {
+    
+    .image1{
+      background-image: url('desktop-size@2x.jpg');
+  
+    }
+    
+    }
+
 {% endhighlight css %}
 Here using CSS, you can establish media queries simply to change the image at different breakpoints that will sit inside the desired container. (Note: if a desired with 
 is established in previous CSS code of that class, the image will sit in the contraints given and in relation to the min-widths established)
