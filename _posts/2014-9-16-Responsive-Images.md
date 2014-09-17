@@ -40,7 +40,7 @@ this is not efficient in terms of size and supportability on a variety of device
 Here using CSS, you can establish media queries simply to change the image at different breakpoints that will sit inside the desired container. (Note: if a desired with 
 is established in previous CSS code of that class, the image will sit in the contraints given and in relation to the min-widths established)
 
-#####Picturefill:
+####Picturefill:
 
 In the head of the document:
 
