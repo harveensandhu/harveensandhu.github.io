@@ -2,8 +2,7 @@
 layout: post
 title: A Game of Shark and Minnow Review
 ---
-###
-Review
+### Review
 
 Interacting with the site was interesting in terms of the use of media, such as a combination of audio, photography and video used to tell the story.
 Scrolling through the site and engaging with the multiple media made it feel as if I were apart of the story, hearing the sounds and seeing the surroundings.
